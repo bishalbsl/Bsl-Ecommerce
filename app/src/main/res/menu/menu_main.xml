@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.bsl.bslecommerce.MainActivity">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/actionHome"
+            android:orderInCategory="50"
+            android:title="Home"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/actionMobile"
+            android:orderInCategory="100"
+            android:title="SmartPhones"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/actionCharger"
+            android:orderInCategory="100"
+            android:title="Charger"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/action_aipods"
+            android:orderInCategory="100"
+            android:title="AirPods"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/action_settings5"
+            android:orderInCategory="100"
+            android:title="@string/action_settings"
+            app:showAsAction="never"/>
+
+    </group>
+
+</menu>
